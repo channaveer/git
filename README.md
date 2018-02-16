@@ -117,9 +117,11 @@ Git Basics - Recording Changes to the Repository
 ================================================
 Each file in your working directory can be in one of two states: tracked or untracked. Tracked files are files that were in the last snapshot; they can be unmodified, modified, or staged. Untracked files are everything else — any files in your working directory that were not in your last snapshot and are not in your staging area. When you first clone a repository, all of your files will be tracked and unmodified because you just checked them out and haven’t edited anything.
 
-Untracked           Unmodified             Modified             Staged
+    Untracked           Unmodified             Modified             Staged
+    ---------           ----------             --------             ------
+    
     Add the file
----------------------->
+    ---------------------->
     
                             Edit the file
                     --------------------------->
@@ -131,7 +133,7 @@ Untracked           Unmodified             Modified             Staged
                     <-------------------------------------------------
 
     Remove the file
-<-------------------
+    <-------------------
 
 Checking the Status of Your Files
 ---------------------------------
